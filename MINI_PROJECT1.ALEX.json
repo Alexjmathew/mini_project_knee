@@ -1,0 +1,150 @@
+[{
+  "_id": {
+    "$oid": "679bb8c2d5bda7f792ab677a"
+  },
+  "username": "alex_j_mathes",
+  "password": "admin123",
+  "age": 30,
+  "height": 180,
+  "weight": 75,
+  "blood_group": "O+",
+  "sessions": [
+    {
+      "date": "2025-01-30 23:07:06",
+      "count": 10,
+      "total_time": 25.5,
+      "average_speed": 2.55
+    },
+    {
+      "date": "2025-01-30 23:07:06",
+      "count": 15,
+      "total_time": 30,
+      "average_speed": 2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "679bb8c2d5bda7f792ab677b"
+  },
+  "username": "ALFY MATHEW PHILIP",
+  "password": "john123",
+  "age": 25,
+  "height": 175,
+  "weight": 70,
+  "blood_group": "A+",
+  "sessions": [
+    {
+      "date": "2025-01-30 23:07:06",
+      "count": 20,
+      "total_time": 40,
+      "average_speed": 2
+    },
+    {
+      "date": "2025-01-31 10:38:29",
+      "count": 10,
+      "total_time": 16.621774196624756,
+      "average_speed": 1.6621774196624757
+    },
+    {
+      "date": "2025-01-31 10:57:39",
+      "count": 6,
+      "total_time": 17.6556658744812,
+      "average_speed": 2.9426109790802
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "679bb8c2d5bda7f792ab677c"
+  },
+  "username": "jane_smith",
+  "password": "jane123",
+  "age": 28,
+  "height": 160,
+  "weight": 60,
+  "blood_group": "B+",
+  "sessions": [
+    {
+      "date": "2025-01-30 23:07:06",
+      "count": 12,
+      "total_time": 24,
+      "average_speed": 2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "679bb8d65b7faa30773e636c"
+  },
+  "username": "ALEX J MATHEW",
+  "password": "admin123",
+  "age": 20,
+  "height": 193,
+  "weight": 75,
+  "blood_group": "O+",
+  "sessions": [
+    {
+      "date": "2025-01-30 23:07:26",
+      "count": 10,
+      "total_time": 25.5,
+      "average_speed": 2.55
+    },
+    {
+      "date": "2025-01-30 23:07:26",
+      "count": 15,
+      "total_time": 30,
+      "average_speed": 2
+    },
+    {
+      "date": "2025-01-31 19:54:36",
+      "count": 10,
+      "total_time": 24.716306686401367,
+      "average_speed": 2.471630668640137
+    },
+    {
+      "date": "2025-01-31 19:56:10",
+      "count": 2,
+      "total_time": 7.298709392547607,
+      "average_speed": 3.6493546962738037
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "679bb8d65b7faa30773e636d"
+  },
+  "username": "Swajna Mary Nelson",
+  "password": "swaj924",
+  "age": 20,
+  "height": 165,
+  "weight": 51,
+  "blood_group": "0+",
+  "sessions": [
+    {
+      "date": "2025-01-30 23:07:26",
+      "count": 20,
+      "total_time": 40,
+      "average_speed": 2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "679bb8d65b7faa30773e636e"
+  },
+  "username": "Susanna Sajan",
+  "password": "Susanna123",
+  "age": 28,
+  "height": 160,
+  "weight": 60,
+  "blood_group": "B+",
+  "sessions": [
+    {
+      "date": "2025-01-30 23:07:26",
+      "count": 12,
+      "total_time": 24,
+      "average_speed": 2
+    }
+  ]
+}]
