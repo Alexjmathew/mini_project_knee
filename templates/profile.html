@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffebee; /* Light red background */
+            padding: 20px;
+        }
+        .profile-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .profile-container h2 {
+            color: #d32f2f; /* Dark red */
+        }
+        .profile-container p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            background-color: #d32f2f; /* Dark red */
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #b71c1c; /* Darker red */
+        }
+        .logout-link {
+            color: #d32f2f; /* Dark red */
+            cursor: pointer;
+            margin-top: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <h2>Welcome, {{ user.username }}</h2>
+        <p>Age: {{ user.age }}</p>
+        <p>Height: {{ user.height }} cm</p>
+        <p>Weight: {{ user.weight }} kg</p>
+        <p>Blood Group: {{ user.blood_group }}</p>
+        <p>Sessions:</p>
+        <ul>
+            {% for session in user.sessions %}
+            <li>{{ session.date }} - Count: {{ session.count }}, Total Time: {{ session.total_time }}s</li>
+            {% endfor %}
+        </ul>
+
+        <!-- Start Exercise Button -->
+        <a href="/select_exercise" class="button">Start Exercise</a>
+
+        <!-- Admin Page Button (Only for Admin) -->
+        {% if user.username == 'ALEX J MATHEW' %}
+        <a href="/admin" class="button">Admin Page</a>
+        {% endif %}
+
+        <!-- Logout Link -->
+        <div class="logout-link" onclick="window.location.href='/logout'">Logout</div>
+    </div>
+</body>
+</html>
